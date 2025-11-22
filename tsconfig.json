@@ -2,20 +2,10 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "bundler",
+    "moduleResolution": "Bundler",
     "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "types": [
-      "vite/client"
-    ],
-    "lib": [
-      "ESNext",
-      "DOM"
-    ]
+    "jsx": "preserve",
+    "types": ["three"]
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }
